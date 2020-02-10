@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+
+development:
+  <<: *default
+  database: stimulation_station_development
+
+test:
+  <<: *default
+  database: stimulation_station_test
+
+production:
+  <<: *default
+  database: stimulation_station_production

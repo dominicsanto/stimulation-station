@@ -1,0 +1,8 @@
+.search
+  .search-component
+    input.autofocus type="text" placeholder="start searching" name="search" value="#{@search_words}" class="search-box" data-reflex="keyup->SearchReflex#search"
+
+- if @search_results.present?
+  .search-results
+    - @search_results.each do |person|
+      p = person.full_name
