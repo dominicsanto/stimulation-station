@@ -1,6 +1,7 @@
 # STIMULATION-STATION
 
-A rails 6 POC that utilises Stimulus and Stimulus-Flex
+A rails 6 POC that utilises Stimulus and Stimulus-Flex.
+The intent is to just show how cool this tech is.
 
 ## Getting Started
 
