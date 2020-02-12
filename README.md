@@ -13,10 +13,14 @@ You will need yarn in order to use webpacker:
 brew install yarn
 ```
 
+cd into the repo
+
 ```ruby
 bundle install
 
 bundle exec rails db:create
+
+bundle exec rails db:migrate
 
 rails s
 ```
@@ -24,7 +28,7 @@ rails s
 You will need some data for this so there is a Rake Task that will generate random data for you:
 
 ```
-rake people:create_people[1000]
+rake people:create_people[100]
 ```
 you can call the task with whatever number you require, but just remember, with great power comes great responsibility
 
